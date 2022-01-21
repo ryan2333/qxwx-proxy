@@ -1,0 +1,17 @@
+server:
+  addr: 127.0.0.1
+  port: 8080
+log:
+  logDir: logs
+  console: true
+  maxSize: 10
+  maxBackups: 7
+  maxAge: 15
+  compress: false
+  logLevel: info
+  jsonEncode: true
+  stackTraceLevel: ""
+token:
+  stark:
+    token: 9200f5199ba902e68ec9385015aab42d
+    callback: https://stark-apiservice.bkjk-inc.com/wechat/callback
